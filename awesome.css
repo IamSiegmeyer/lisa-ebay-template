@@ -1,9 +1,26 @@
 body {
-  background-color: powderblue;
+  background-color: #dddddd;
 }
-h1 {
-  color: blue;
+
+button{
+	color: white;
+	border: 2px solid red;
+	border-radius: 4px;
+	background-color: red;
+	padding: 14px 40px;
+	transition-duration: 0.4s;
 }
-p {
-  color: red;
+
+button:hover{
+	color: black;
+	background-color: #dddddd;
+}
+
+.floaty-button{
+	float: center;
+	margin: 4px;
+}
+
+.text-right{
+	text-align: right;
 }
