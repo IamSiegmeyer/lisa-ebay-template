@@ -1,26 +1,22 @@
 body {
-  background-color: #dddddd;
+  background-color: #ededed;
 }
-
+p, .normal{
+	font-size: 20px;
+}
 button{
-	color: white;
+	color: #ededed;
 	border: 2px solid red;
-	border-radius: 4px;
+	border-radius: 16px;
 	background-color: red;
 	padding: 14px 40px;
 	transition-duration: 0.4s;
+	font-size: 20px;
 }
-
 button:hover{
 	color: black;
-	background-color: #dddddd;
+	background-color: #ededed;
 }
-
-.floaty-button{
-	float: center;
-	margin: 4px;
-}
-
-.text-right{
-	text-align: right;
+.large{
+	font-size: 30px;
 }
