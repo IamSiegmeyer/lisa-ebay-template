@@ -5,17 +5,26 @@ p, .normal{
 	font-size: 20px;
 }
 button{
-	color: #ededed;
+	color: black;
 	border: 2px solid red;
 	border-radius: 16px;
-	background-color: red;
-	padding: 14px 40px;
+	background-color: #ededed;
+	padding: 14px 20px;
 	transition-duration: 0.4s;
+	font-size: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*
+	#7c7c7c
+	#ededed
+*/
+.small-button{
 	font-size: 20px;
+	padding: 14px 40px;
 }
 button:hover{
-	color: black;
-	background-color: #ededed;
+	color: #ededed;
+	background-color: red;
 }
 .large{
 	font-size: 30px;
