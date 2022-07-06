@@ -25,6 +25,10 @@ button:hover{
 	color: #ededed;
 	background-color: red;
 }
+.button-padding{
+	padding-top: 5px;
+	paddint-bottom: 5px;
+}
 .large{
 	font-size: 30px;
 }
